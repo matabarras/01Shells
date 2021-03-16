@@ -6,7 +6,6 @@ while [ $valor1 -le 0 ]; do
 		echo "Debes introducir un numero superior a 0"
 	else
 	par=`expr $valor1 % 2`
-	echo $par
 		if [ $par = 0 ]
 		then
 		   echo "El numero es par"
